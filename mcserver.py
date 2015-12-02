@@ -43,7 +43,6 @@ def search_results():
 
 
     sorting = collections.OrderedDict(sorted(results.items()))
-    #sort_date = [key[:10] for key in sorting.keys()[:-3]]
 
     results = sorting.values()[:-3]
     
